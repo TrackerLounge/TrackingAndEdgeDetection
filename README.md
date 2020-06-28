@@ -6,7 +6,8 @@ Experiments to find edges of tracks.
 Computer Vision and Digital Image Signal Processing rely on edge detection and object segmentation to "make sense of the world".
 I am interested in using computer vision techniques to automatically identify tracks in a scene, 3D scan, or set of pictures.
 
-My motivation is from a hobby stance and outdoor enthusiast. However, there are practical applications. For example, in the UK it is estimated that half of all crime scenes have footprints collected in evidence and serves as a basic tool of criminal investigation there. In contrast, in the USA, the FBI estimates that some 6 or 7 million violent crimes occured in 2019. Of these, ~7000 footprints were collecected. These numbers probably reflect that collecting tracks is time consuming, costly and hard to do well. If this process could be simplified and/or automated to some degree, it may be a tool to aid in investigation.
+My motivation is from a hobby stance and outdoor enthusiast. However, there are practical applications. For example, in the UK it is estimated that half of all crime scenes have footprints collected in evidence and serves as a basic tool of criminal investigation there. In contrast, in the USA, the FBI estimates that some 6 or 7 million violent crimes occured in 2019. Of these, something like ~7000 footprints were collecected. See: https://www.youtube.com/watch?v=CyNocINOA7k (No affiliation)
+These numbers probably reflect that collecting tracks is time consuming, costly and hard to do well. If this process could be simplified and/or automated to some degree, it may be a tool to aid in investigation.
 
 As yet, I have not been successful. 
 For examples of failures in machine learning see [Experiments with Image Processing, Computer Vision, and Machine Learning and Tracking](https://github.com/TrackerLounge/TrackingAndComputerVision)
