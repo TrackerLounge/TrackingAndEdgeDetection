@@ -19,6 +19,8 @@ Foot prints or tracks are difficult to perform edge detection on. Tracks are res
 - Tracks can be made up of multiple appendages or areas, that may not be connected into a single unit when edge detected.
 - Tracks are found on pitted, uneven surfaces and create uneven surfaces making it difficult to programatically define simple things like "ground level" or "elevation 0"
 
+Also see https://www.youtube.com/watch?v=mPY8G-tCS1U (No affiliation)
+
 This page will illustrate some approaches to edge detection. 
 
 # Original Image
