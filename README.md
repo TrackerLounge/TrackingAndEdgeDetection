@@ -13,7 +13,7 @@ As yet, I have not been successful.
 For examples of failures in machine learning see [Experiments with Image Processing, Computer Vision, and Machine Learning and Tracking](https://github.com/TrackerLounge/TrackingAndComputerVision)
 
 Foot prints or tracks are difficult to perform edge detection on. Tracks are resistant to edge detection for many reasons, including:
-- Tracks occur in 'noisy mediums' (e.g. dirt, dust, dew)
+- Tracks occur in 'noisy mediums' (e.g. dirt, dust, dew) of irregular hardness (e.g. mud next to rock)
 - Tracks may be subtle, only be visible from viewing and lighting certain angles, relying on qualities of refection or dullness 
 - Tracks may have very little differences in height from the "inside" of the track and the "outside" of the track, resulting in very weak edges
 - Tracks can be made up of multiple appendages or areas, that may not be connected into a single unit when edge detected.
