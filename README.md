@@ -85,4 +85,7 @@ I can then manually fill the large artifacts in the image to ensure that the edg
 
 <img src='/images/trackEdgeFilled.jpg' width=800>
 
+For more examples of edge detection on tracks see:
+[Fast Walk - Edge detection on track 01](https://github.com/TrackerLounge/DigitalTrackingPit/blob/master/FastWalk.md)
+
 Unfortunately, there are too many manual (and subjective) steps in this process. This process also relies on having a 3D digital model of the track (which would add processing time and expense to the process.)
