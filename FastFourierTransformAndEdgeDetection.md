@@ -9,6 +9,7 @@ See: [Color the Track along the Z-axis](https://github.com/TrackerLounge/Trackin
 ImageJ is a free tool with a number of powerful built-in image processing capabilities and many available plug-ins to enhances it's abilities.
 
 We'll take a look at the FFT (Fast Fourier Transform) functionality.
+For an introduction on Fourier Transform, I would recommend watching 3Blue1Brown's excellent youtube video (no relationship) on the subject - [But what is the Fourier Transform? A visual introduction](https://www.youtube.com/watch?v=spUNpyF58BY)
 
 We will do the following to our test images:
 1. Apply FFT Bandpass Filter
