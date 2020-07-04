@@ -115,7 +115,7 @@ Here is the FFT Bandpass filtered Image converted to Binary Image:
 
 <img src='/imageJFFT/originalTrack_small_FTT_Bandpass_Make_Binary.jpg' width=800>
 
-As you can see, it does not produce a good result on the original image. Perhaps more twittling with the High and Low value in the FFT Bandpass filter would produce a better result? I kinda doubt it but might be interesting to try out.
+As you can see, it does not produce a good result on the original image. It really focuses on the shadowed areas. Perhaps if we took images, with a flash firing from several sides (say 12 o'clock, 3 o'clock, 6 o'clock, and 9 o'clock) and then merged the resulting images together, we might have enough contrast to make this work better. Perhaps more twittling with the High and Low value in the FFT Bandpass filter would produce a better result? I kinda doubt it but might be interesting to try out.
 
 
 
