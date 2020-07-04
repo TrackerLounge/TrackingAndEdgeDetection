@@ -104,7 +104,18 @@ Overall, this approach appears to produce pretty decent object and edge detectio
 
 Note: this performs less well if the FFT filtered object is allowed to be noisy and/or when the pressure releases appear outside the track as in example 2.
 
+But...before we finish...you may be wondering how this approach would work on our original image.
+So here are the results.
 
+Here is the original image
+
+<img src='/imageJFFT/originalTrack_small.jpg' width=800>
+
+Here is the FFT Bandpass filtered Image converted to Binary Image:
+
+<img src='/imageJFFT/originalTrack_small_FTT_Bandpass_Make_Binary.jpg' width=800>
+
+As you can see, it does not produce a good result on the original image. Perhaps more twittling with the High and Low value in the FFT Bandpass filter would produce a better result? I kinda doubt it but might be interesting to try out.
 
 
 
