@@ -119,12 +119,15 @@ In this case it isn't very good.
 Compare to:
 
 Track Colored by Z axis
+
 <img src='/imageJBinarySegmentation/LF_20in_Stride_Wet_Sand_ColoredZAxis_Small.jpg' width=800>
 
 Converted to Binary Image
+
 <img src='/imageJBinarySegmentation/LF_20in_Stride_Wet_Sand_ColoredZAxis_Small_Binary_In_ImageJ.jpg' width=800>
 
 Segmented by particles
+
 <img src='/imageJBinarySegmentation/LF_20in_Stride_Wet_Sand_ColoredZAxis_Small_Binary_Segmented_In_ImageJ.jpg' width=800>
 
 I am not clear why one track produces a reasonable approach and the other does not.
