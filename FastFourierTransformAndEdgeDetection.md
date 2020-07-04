@@ -14,12 +14,6 @@ We will do the following to our test images:
 1. Apply FFT Bandpass Filter
 2. Convert Resulting Image To Binary
 
-We could convolve the binary images to narrow in on the specific edge if we wanted to.
-
-<img src='/imageJFFT/imageJ_process_filter_convolve.jpg' width=800>
-
-<img src='/imageJFFT/convolve_kernel.jpg' width=800>
-
 To run the FFT Bandpass Filter click Process > FFT > Bandpass Filter
 <img src='/imageJFFT/imageJ_FFT_BandpassFilter.jpg' width=800>
 
@@ -50,9 +44,17 @@ With these two filter windows open, in Process > FFT > Custom Filter, you can ad
 
 For now we will work with a single filter.
 
-Here are the results.
+# Optional
+We could convolve the binary images to narrow in on the specific edge if we wanted to.
 
-# Test 1
+<img src='/imageJFFT/imageJ_process_filter_convolve.jpg' width=800>
+
+<img src='/imageJFFT/convolve_kernel.jpg' width=800>
+
+
+# Results.
+
+## Test 1
 Image colored along Z axis:
 
 <img src='/imageJFFT/LF_20in_Stride_Wet_Sand_ColoredZAxis_Small.jpg' width=800>
@@ -69,7 +71,7 @@ Filter using Convolve kernel:
 
 <img src='/imageJFFT/LF_20in_Stride_Wet_Sand_ColoredZAxis_Small_FFT_Bandpass_make_binary_convolved.jpg' width=800>
 
-# Test 2
+## Test 2
 Image colored along Z axis:
 
 <img src='/imageJFFT/track01ColoredByZAxis_Small.jpg' width=800>
@@ -82,7 +84,7 @@ FFT Bandpass filtered Image converted to Binary Image:
 
 <img src='/imageJFFT/track01ColoredByZAxis_Small_FFT_Bandpass_make_binary.jpg' width=800>
 
-# Test 3
+## Test 3
 Image colored along Z axis:
 
 <img src='/imageJFFT/trackColoredByZAxis.jpg' width=800>
@@ -95,6 +97,7 @@ FFT Bandpass filtered Image converted to Binary Image:
 
 <img src='/imageJFFT/trackColoredByZAxis_FFT_Bandpass_Make_Binary.jpg' width=800>
 
+# Conclusion/Observations
 Overall, this approach appears to produce pretty decent object and edge detection. 
 Though this performs less well if the FFT filtered object is allowed to be noisy and/or when the pressure releases appear outside the track as in example 2.
 
