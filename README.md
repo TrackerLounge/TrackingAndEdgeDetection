@@ -46,5 +46,5 @@ The track edge is clearly visible in the original image, to the naked eye. We ne
 
 [Edge Detection by Segmentation](https://github.com/TrackerLounge/TrackingAndEdgeDetection/blob/master/EdgeDetectionBySegmentation.md)
 
-[Fast Fourier Transform and Edge Detection](https://github.com/TrackerLounge/TrackingAndEdgeDetection/blob/master/FastFourierTransformAndEdgeDetection.md)
+[Fast Fourier Transform and Edge Detection - Best approach so far](https://github.com/TrackerLounge/TrackingAndEdgeDetection/blob/master/FastFourierTransformAndEdgeDetection.md)
 
