@@ -150,4 +150,22 @@ Segmented by particles with light background:
 
 <img src='/imageJBinarySegmentation/LF_20in_Stride_Wet_Sand_ColoredZAxis_Small_Binary_Segmented_white_background_In_ImageJ.jpg' width=800>
 
-I am not clear why one track produces a reasonable approach and the other does not.
+And another example, where much of the pressure release has an elevation above the surrounding ground:
+
+Track Colored by Z axis
+
+<img src='/imageJBinarySegmentation/track01ColoredByZAxis_Small.jpg' width=800>
+
+Converted to Binary Image
+
+<img src='/imageJBinarySegmentation/track01ColoredByZAxis_Small_As_Binary_in_ImageJ.jpg' width=800>
+
+Segmented by particles
+
+<img src='/imageJBinarySegmentation/track01ColoredByZAxis_Small_As_Binary_Segmentation_in_ImageJ.jpg' width=800>
+
+Segmented by particles with light background:
+
+<img src='/imageJBinarySegmentation/track01ColoredByZAxis_Small_As_Binary_Segmentation__light_background_in_ImageJ.jpg' width=800>
+
+The segmentation process produces interesting results which may be worth explerimenting with further. It may be useful as part of a track processing pipeline.
