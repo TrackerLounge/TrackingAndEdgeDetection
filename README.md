@@ -96,18 +96,23 @@ ImageJ is a free tool with a number of powerful built-in image processing capabi
 We'll take a look at the "Make Binary" and "Segment by Particle" tools.
 
 We will start with our track colored by the Z-axis
+
 <img src='/imageJBinarySegmentation/trackColoredByZAxis_In_ImageJ.jpg' width=800>
 
 Select Process>Binary>Make Binary
+
 <img src='/imageJBinarySegmentation/imagej_binary_makeBinrary.jpg' width=800>
 
 Here is the result of making the image binary
+
 <img src='/imageJBinarySegmentation/trackColoredByZAxis_As_Binary_In_ImageJ.jpg' width=800>
 
 Select Process>Find Maxima 
+
 <img src='/imageJBinarySegmentation/imagej_process_find_maxima.jpg' width=800>
 
 Select "Output Type" = "Segmented Particles" and click ok
+
 <img src='/imageJBinarySegmentation/imagej_find_maxima_segmented_particals.jpg' width=800>
 
 Here is the result:
