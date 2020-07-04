@@ -121,6 +121,17 @@ Here is the result:
 
 In this case it isn't very good.
 
+If we repeat the find_maxima but enable "white background":
+
+<img src='/imageJBinarySegmentation/imagej_find_maxima_segmented_particals_light_background.jpg' width=800>
+
+We get:
+
+<img src='/imageJBinarySegmentation/trackColoredByZAxis_As_Binary_Segmented__white_background_In_ImageJ.jpg' width=800>
+
+This is a little more intersting but doesn't provide a clean edge.
+
+
 Compare to:
 
 Track Colored by Z axis
@@ -134,5 +145,9 @@ Converted to Binary Image
 Segmented by particles
 
 <img src='/imageJBinarySegmentation/LF_20in_Stride_Wet_Sand_ColoredZAxis_Small_Binary_Segmented_In_ImageJ.jpg' width=800>
+
+Segmented by particles with white background:
+
+<img src='/imageJBinarySegmentation/LF_20in_Stride_Wet_Sand_ColoredZAxis_Small_Binary_Segmented_white_background_In_ImageJ.jpg' width=800>
 
 I am not clear why one track produces a reasonable approach and the other does not.
