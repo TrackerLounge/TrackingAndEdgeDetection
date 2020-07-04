@@ -55,6 +55,8 @@ If you want to play around with the model in blender, you can download the zip c
 If we were to sobel edge detect on this image, we would see something like
 <img src='/images/trackColoredByZAxis_edgeDetect_sobel.jpg' width=800>
 
+The edge of the track is more visible now but it is still not strong enough to destinguish it automatically from the background noise.
+
 # Edge Detection on the Track Colored in the Z-Axis
 In Gimp, we can quickly experiment with lots of potential image procesing pipelines.
 
