@@ -121,7 +121,7 @@ Here is the result:
 
 In this case it isn't very good.
 
-If we repeat the find_maxima but enable "white background":
+If we repeat the find_maxima but enable "light background":
 
 <img src='/imageJBinarySegmentation/imagej_find_maxima_segmented_particals_light_background.jpg' width=800>
 
@@ -146,7 +146,7 @@ Segmented by particles
 
 <img src='/imageJBinarySegmentation/LF_20in_Stride_Wet_Sand_ColoredZAxis_Small_Binary_Segmented_In_ImageJ.jpg' width=800>
 
-Segmented by particles with white background:
+Segmented by particles with light background:
 
 <img src='/imageJBinarySegmentation/LF_20in_Stride_Wet_Sand_ColoredZAxis_Small_Binary_Segmented_white_background_In_ImageJ.jpg' width=800>
 
