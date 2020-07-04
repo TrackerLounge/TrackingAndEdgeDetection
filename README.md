@@ -36,7 +36,7 @@ If we preform edge detection on this original image we get:
 
 Edge detection on the original image tends to detect the edge around individual grains of sand rather than the edge of the track. If there are hard edges (e.g. leaves, branches, cracks, tile groute lines, etc.) these tend to be dominate the edge detection process, and obscure or ignore the track edge.
 
-The track edge is clearly visible. We need to find a process that will detect and highlight it.
+The track edge is clearly visible in the original image, to the naked eye. We need to find a process that will detect and highlight it.
 
 # Convert Image to 3D Model
 If we convert the Image to a 3D model using [Tracking and Photogrammetry](https://github.com/TrackerLounge/TrackingAndPhotogrammetry)
