@@ -2,7 +2,8 @@
 
 [Tracking and Edge Detection](https://github.com/TrackerLounge/TrackingAndEdgeDetection)
 
-# Edge Detection on the Track Colored in the Z-Axis
+# Thresholding and Edge Detection
+We will attempt to edge detect on a track that has been colored along the Z-axis.
 In Gimp, we can quickly experiment with lots of potential image procesing pipelines.
 
 For example we may try the following:
