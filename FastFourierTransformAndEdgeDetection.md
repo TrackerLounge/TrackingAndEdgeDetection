@@ -98,8 +98,9 @@ FFT Bandpass filtered Image converted to Binary Image:
 <img src='/imageJFFT/trackColoredByZAxis_FFT_Bandpass_Make_Binary.jpg' width=800>
 
 # Conclusion/Observations
-Overall, this approach appears to produce pretty decent object and edge detection. 
-Though this performs less well if the FFT filtered object is allowed to be noisy and/or when the pressure releases appear outside the track as in example 2.
+Overall, this approach appears to produce pretty decent object and edge detection. I did have to manually play around with the High and low value in the FFT Bandpass filter until I found value that worked adequately for all three images. This range could be played with more. It would be interesting to see if this range works well on a wider set of test images.
+
+Note: this performs less well if the FFT filtered object is allowed to be noisy and/or when the pressure releases appear outside the track as in example 2.
 
 
 
