@@ -89,3 +89,42 @@ For more examples of edge detection on tracks see:
 [Fast Walk - Edge detection on track 01](https://github.com/TrackerLounge/DigitalTrackingPit/blob/master/FastWalk.md)
 
 Unfortunately, there are too many manual (and subjective) steps in this process. This process also relies on having a 3D digital model of the track (which would add processing time and expense to the process.)
+
+# Edge Detection by Segmentation
+ImageJ is a free tool with a number of powerful built-in image processing capabilities and many available plug-ins to enhances it's abilities.
+
+We'll take a look at the "Make Binary" and "Segment by Particle" tools.
+
+We will start with our track colored by the Z-axis
+<img src='/imageJBinarySegmentation/trackColoredByZAxis_In_ImageJ.jpg' width=800>
+
+Select Process>Binary>Make Binary
+<img src='/imageJBinarySegmentation/imagej_binary_makeBinrary.jpg' width=800>
+
+Here is the result of making the image binary
+<img src='/imageJBinarySegmentation/trackColoredByZAxis_As_Binary_In_ImageJ.jpg' width=800>
+
+Select Process>Find Maxima 
+<img src='/imageJBinarySegmentation/imagej_process_find_maxima.jpg' width=800>
+
+Select "Output Type" = "Segmented Particles" and click ok
+<img src='/imageJBinarySegmentation/imagej_find_maxima_segmented_particals.jpg' width=800>
+
+Here is the result:
+
+<img src='/imageJBinarySegmentation/trackColoredByZAxis_As_Binary_Segmented_In_ImageJ.jpg' width=800>
+
+In this case it isn't very good.
+
+Compare to:
+
+Track Colored by Z axis
+<img src='/imageJBinarySegmentation/LF_20in_Stride_Wet_Sand_ColoredZAxis_Small.jpg' width=800>
+
+Converted to Binary Image
+<img src='/imageJBinarySegmentation/LF_20in_Stride_Wet_Sand_ColoredZAxis_Small_Binary_In_ImageJ.jpg' width=800>
+
+Segmented by particles
+<img src='/imageJBinarySegmentation/LF_20in_Stride_Wet_Sand_ColoredZAxis_Small_Binary_Segmented_In_ImageJ.jpg' width=800>
+
+I am not clear why one track produces a reasonable approach and the other does not.
