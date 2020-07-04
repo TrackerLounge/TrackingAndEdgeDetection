@@ -109,7 +109,7 @@ So here are the results.
 
 Here is the original image
 
-<img src='/imageJFFT/originalTrack_small.jpg' width=800>
+<img src='/imageJFFT/originalTrack_Small01.jpg' width=800>
 
 Here is the FFT Bandpass filtered Image converted to Binary Image:
 
