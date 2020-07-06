@@ -87,6 +87,77 @@ I will cahnge "Label 2" to "ground"
 
 <img src='/ilastikFiles/ilastik_step03_training_labels.jpg' width=800>
 
+With the "track" label selected, draw on the image to indicate what you would consider the areas of the track. It will show up as a yellow line.
 
+<img src='/ilastikFiles/ilastik_step03_training_track_highlight01.jpg' width=800>
 
+With the "ground" label selected, draw on the image to indicate what you would consider the areas of the ground. It will show up as a blue line.
 
+<img src='/ilastikFiles/ilastik_step03_training_track_highlight02.jpg' width=800>
+
+Click "Live Update" for it to compare what you have drawn to the pre-prepared Gaussian/Laplacian/Edge images. It will color your image blue or yellow and indicate where it might still think something is track when it is ground or ground when it is track.
+
+<img src='/ilastikFiles/ilastik_step03_training_track_highlight03.jpg' width=800>
+
+On the left side change the image by selecting the next image in the "current view" drop down. 
+
+Repeat the process of labeling the "track" and "ground" in the other training images. If the images are already highlighted well enough you can move to the next step.
+
+Click "Live Update" again to stop it.
+
+Click "4. Prediction Export"
+
+<img src='/ilastikFiles/ilastik_step04_prediction_export.jpg' width=800>
+
+Change the Source to "Simple Segmentation"
+
+<img src='/ilastikFiles/ilastik_step04_prediction_export02.jpg' width=800>
+
+Click on "Choose Export Image Settings"
+
+In the popup, click Format: JPEG (or whatever you want).
+
+<img src='/ilastikFiles/ilastik_step04_prediction_export02_popup.jpg' width=800>
+
+Click ok
+
+Click "5. Batch Processing"
+
+<img src='/ilastikFiles/ilastik_step05_batch_processing.jpg' width=800>
+
+Select Raw Data Files
+Select the files you want ilastik to try what it has learned on. We will select the 3 track files that we didn't use during the training phase.
+
+<img src='/ilastikFiles/trialImages.jpg' width=800>
+
+You should now see the files in ilastik. 
+When we click "Process all files", ilastik should create a mask file in the file system for each of the 3 files we just selected.
+
+<img src='/ilastikFiles/ilastik_step05_batch_processing02.jpg' width=800>
+
+<img src='/ilastikFiles/ilastik_generated_mask_files.jpg' width=800>
+
+In Gimp, we will open a test image.
+
+<img src='/ilastikFiles/testTrack01.jpg' width=800>
+
+We will then add a layer on the image and drag in the mask for that image. 
+Make the opacity of the new layer 50%.
+Right click on the layer and merge down. 
+
+Click on Color > Auto > White Balance
+
+<img src='/ilastikFiles/testTrack01_ApplyWhiteBalance.jpg' width=800>
+
+The white is what ilastik thought of as the ground in the images that it had never seen before.
+
+<img src='/ilastikFiles/testTrack01_WhiteBalance.jpg' width=800>
+
+<img src='/ilastikFiles/testTrack02_WhiteBalance.jpg' width=800>
+
+<img src='/ilastikFiles/testTrack03_WhiteBalance.jpg' width=800>
+
+The results are interesting but not very good for our purposes. Perhaps with more training images, more pre-prepared Gaussian ranges, and more labeling, we might be able to get better results.
+
+If we could get better results, perhaps this could be useful in our pre-processing pipeline.
+For now, it is useful to quickly get a feeling for what some default Gaussian ranges will see. This prompted me to play around more with the ranges in Fast Fourier Transform (FFT) and get better results.
