@@ -157,7 +157,10 @@ The white is what ilastik thought of as the ground in the images that it had nev
 
 <img src='/ilastikFiles/testTrack03_WhiteBalance.jpg' width=800>
 
+# Conclusion
 The results are interesting but not very good for our purposes. Perhaps with more training images, more pre-prepared Gaussian ranges, and more labeling, we might be able to get better results.
 
 If we could get better results, perhaps this could be useful in our pre-processing pipeline.
 For now, it is useful to quickly get a feeling for what some default Gaussian ranges will see. This prompted me to play around more with the ranges in Fast Fourier Transform (FFT) and get better results.
+
+Also note: I am new to ilastik. There are lots of great training resources available on it and many powerful tools in it. My poor results could simply be due to my inexperience with the tool or using the wrong tool in Ilastik for this problem space. I am interested in playing with other tools in ilastik to learn more. For example Classification looks intreguing [ilastik 0.5: Introduction to Classification](https://www.youtube.com/watch?v=9fzDI_ayOJ4) 
