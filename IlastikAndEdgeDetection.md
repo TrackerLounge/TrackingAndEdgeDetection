@@ -77,6 +77,15 @@ ilastik will auto-generate multiple Hessian of Gaussian Eigenvalues images for e
 
 <img src='/ilastikFiles/ilastik_step02_feature_selection_MultipleHessianOfGaussianEigenvalues.jpg' width=800>
 
+Next, click on "3. Training" on the left side of the screen.
+
+<img src='/ilastikFiles/ilastik_step03_training.jpg' width=800>
+
+You can see in the left side of the screen "Label 1" and "Label 2". 
+I will change "Label 1" to "track"
+I will cahnge "Label 2" to "ground"
+
+<img src='/ilastikFiles/ilastik_step03_training_labels.jpg' width=800>
 
 
 
