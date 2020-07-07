@@ -19,6 +19,8 @@ Ilastik will produce image masks for each of the new images. The mask will have 
 We have a few files to test with:
 <img src='/ilastikFiles/testFiles.jpg' width=800>
 
+Download the [images](https://github.com/TrackerLounge/TrackingAndEdgeDetection/tree/master/ilastikFiles/images)
+
 We will use 3 files for training and 3 files for testing later on.
 
 On the ilastik main page, select "Pixel Classification":
