@@ -118,6 +118,7 @@ Change the Source to "Simple Segmentation"
 Click on "Choose Export Image Settings"
 
 In the popup, click Format: JPEG (or whatever you want).
+Note: After working throught this trial, I went back and tried the file type .tif and found that it had better resolution. Not sure why. 
 
 <img src='/ilastikFiles/ilastik_step04_prediction_export02_popup.jpg' width=800>
 
