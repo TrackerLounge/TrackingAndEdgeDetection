@@ -44,6 +44,12 @@ In general the smaller the "Filter small structures up to" value is set to the n
 In general the larger the "Filter small structures up to" value is set to the smoother and cleaner result will be.
 Play around with this value. In these test cases I will be using a value of 10 pixels.
 
+For example here are three results, using different values for "Filter small structures up to".
+
+<img src='/imageJFFT/FFTBandpassFilterCompare600_3.jpg' width=800>
+
+<img src='/imageJFFT/FFTBandpassFilterCompare600_10.jpg' width=800>
+
 If you want to see what the FFT filter looks like, check the display filter.
 When you run the Bandpass filter, it will open another window to show the filter.
 
