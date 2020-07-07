@@ -29,6 +29,17 @@ In general the smaller the "Filter large structures down to" value is set to the
 In general the larger the "Filter large structures down to" value is set to the more consolidated lorge structures will be.
 Play around with this value. In these test cases I will be using a value of 600 pixels.
 
+For example here are three results, using different values for "Filter large structures down to".
+
+<img src='/imageJFFT/FFTBandpassFilterCompare40.jpg' width=800>
+
+<img src='/imageJFFT/FFTBandpassFilterCompare100.jpg' width=800>
+
+<img src='/imageJFFT/FFTBandpassFilterCompare300.jpg' width=800>
+
+Notice that as the value goes up, we capture more and more of the total track.
+FFT works with frequencies. Imaging that you are looking at the track from the side, line of the track rises and falls in a 2D space. The track would represent a large low frequency in this graph. The bumpy soil would represent lots of high frequency jitters. I think of the "Filter large structures down to" setting allowing to to say "I want to focus more on the BIG frequency of the track rather than the small high frequency noisy surface of the soil. Is this a correct view. I really don't know.
+
 In general the smaller the "Filter small structures up to" value is set to the noiser and more speckled your result will be.
 In general the larger the "Filter small structures up to" value is set to the smoother and cleaner result will be.
 Play around with this value. In these test cases I will be using a value of 10 pixels.
