@@ -90,6 +90,18 @@ Filter using Convolve kernel:
 
 <img src='/imageJFFT/LF_20in_Stride_Wet_Sand_ColoredZAxis_Small_FFT_Bandpass_make_binary_convolved.jpg' width=800>
 
+Alternatively we could combine two FFT using different "Filter large structures down to" values to produce a result.
+
+<img src='/imageJFFT/LF_20in_Stride_Wet_Sand_ColoredZAxis_Small_FFT_combined_as_mask.jpg' width=800>
+
+Resulting in  something like:
+
+<img src='/imageJFFT/LF_20in_Stride_Wet_Sand_ColoredZAxis_Small_masked_2_FFT.jpg' width=800>
+
+Or we could use it as a mask on the original image colored on the z axis
+
+<img src='/imageJFFT/LF_20in_Stride_Wet_Sand_ColoredZAxis_Small_masked.jpg' width=800>
+
 ## Test 2
 Image colored along Z axis:
 
