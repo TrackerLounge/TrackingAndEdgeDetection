@@ -131,7 +131,7 @@ FFT Bandpass filtered Image converted to Binary Image:
 <img src='/imageJFFT/trackColoredByZAxis_FFT_Bandpass_Make_Binary.jpg' width=800>
 
 # Conclusion/Observations
-Overall, this approach appears to produce pretty decent object and edge detection. I did have to manually play around with the High and low value in the FFT Bandpass filter until I found value that worked adequately for all three images. This range could be played with more. It would be interesting to see if this range works well on a wider set of test images. 
+Overall, this approach appears to produce pretty decent object and edge detection in soft substraits/soils where the tracks are deep. I did have to manually play around with the High and low value in the FFT Bandpass filter until I found value that worked adequately for all three images. This range could be played with more. It would be interesting to see if this range works well on a wider set of test images. However, this general approach starts to fall apart in harder substraits/soils, where the track is very shallow and/or the ground has larger undulations/unevenness than the track. 
 
 I suspect we would need a series of FFT processes - one to find the regions of interest in the image where the track is, then others to get greater details about the structures within the identified track. Once you have the rough outline of the track, you can then mask away the ground surface outside the track in the original image and re-run the FFT process again with different settings to get finer details inside the track to capture shoe sole patterns or pressure release structures in finer detail. 
 
