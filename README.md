@@ -48,7 +48,7 @@ The track edge is clearly visible in the original image, to the naked eye. We ne
 
 [Ilastik and Edge Detection](https://github.com/TrackerLounge/TrackingAndEdgeDetection/blob/master/IlastikAndEdgeDetection.md)
 
-[Fast Fourier Transform and Edge Detection](https://github.com/TrackerLounge/TrackingAndEdgeDetection/blob/master/FastFourierTransformAndEdgeDetection.md)
+[FFT - Fast Fourier Transform and Edge Detection](https://github.com/TrackerLounge/TrackingAndEdgeDetection/blob/master/FastFourierTransformAndEdgeDetection.md)
 
 The FFT approach appears to be the most automatic and cleanest approach so far.
 
