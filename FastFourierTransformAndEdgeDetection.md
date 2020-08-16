@@ -38,7 +38,7 @@ In general the smaller the "Filter large structures down to" value is set to the
 In general the larger the "Filter large structures down to" value is set to the more consolidated lorge structures will be.
 Play around with this value. In these test cases I will be using a value of 600 pixels.
 
-For example here are three results, using different values for "Filter large structures down to".
+For example here are three results (after appling FFT Bandpass Filter and Make Binary), using different values for "Filter large structures down to".
 
 <img src='/imageJFFT/FFTBandpassFilterCompare40.jpg' width=800>
 
