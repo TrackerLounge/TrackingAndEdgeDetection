@@ -21,6 +21,9 @@ We will do the following to our test images:
 To run the FFT Bandpass Filter click Process > FFT > Bandpass Filter
 <img src='/imageJFFT/imageJ_FFT_BandpassFilter.jpg' width=800>
 
+To run the Make Binary Image click Process > Binary > Make Binary
+<img src='/imageJFFT/imagej_binary_makeBinrary.jpg' width=800>
+
 In the FFT Bandpass Filter dialog you can set several settings. We will focus on three:
 - Filter large structures down to:
 - Filter small structures up to 
