@@ -25,6 +25,8 @@ In the FFT Bandpass Filter dialog you can set several settings. We will focus on
 - Display filter
 <img src='/imageJFFT/FFTBandpassFilter.jpg' width=800>
 
+[ImageJ Source Code](https://imagej.nih.gov/ij/developer/source/)
+
 In general the smaller the "Filter large structures down to" value is set to the more segmented lorge structures will be.
 In general the larger the "Filter large structures down to" value is set to the more consolidated lorge structures will be.
 Play around with this value. In these test cases I will be using a value of 600 pixels.
