@@ -21,18 +21,22 @@ We will do the following to our test images:
 To run the FFT Bandpass Filter click Process > FFT > Bandpass Filter
 <img src='/imageJFFT/imageJ_FFT_BandpassFilter.jpg' width=800>
 
+[ImageJ Source Code](https://imagej.nih.gov/ij/developer/source/)
+
+[ImageJ Sourc Code for FFTFilter Class](https://imagej.nih.gov/ij/developer/source/ij/plugin/filter/FFTFilter.java.html)
+
+[Description of ImageJ FFT Filter Plugin](https://imagej.nih.gov/ij/plugins/fft-filter.html)
+
 To run the Make Binary Image click Process > Binary > Make Binary
 <img src='/imageJFFT/imagej_binary_makeBinrary.jpg' width=800>
+
+[ImageJ Sourc Code for Binary Class](https://imagej.nih.gov/ij/developer/source/ij/plugin/filter/Binary.java.html)
 
 In the FFT Bandpass Filter dialog you can set several settings. We will focus on three:
 - Filter large structures down to:
 - Filter small structures up to 
 - Display filter
 <img src='/imageJFFT/FFTBandpassFilter.jpg' width=800>
-
-[ImageJ Source Code](https://imagej.nih.gov/ij/developer/source/)
-
-[Description of ImageJ FFT Filter Plugin](https://imagej.nih.gov/ij/plugins/fft-filter.html)
 
 In general the smaller the "Filter large structures down to" value is set to the more segmented lorge structures will be.
 In general the larger the "Filter large structures down to" value is set to the more consolidated lorge structures will be.
