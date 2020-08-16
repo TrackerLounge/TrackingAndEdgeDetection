@@ -6,6 +6,8 @@
 We will attempt to edge detect on a track that has been colored along the Z-axis. 
 See: [Color the Track along the Z-axis](https://github.com/TrackerLounge/TrackingAndEdgeDetection/blob/master/ColorTrackOnZAxis.md)
 
+[ImageJ Welcome Page](https://imagej.net/Welcome)
+
 [ImageJ](https://imagej.nih.gov/ij/index.html) is a free tool with a number of powerful built-in image processing capabilities and many available plug-ins to enhances it's abilities. [ImageJ Wiki](https://en.wikipedia.org/wiki/ImageJ)
 
 We'll take a look at the FFT (Fast Fourier Transform) functionality.
