@@ -31,6 +31,86 @@ Not sure of best place to download source all source code - could start here:
 
 [Description of ImageJ FFT Filter Plugin](https://imagej.nih.gov/ij/plugins/fft-filter.html)
 
+Here is a rough approximation in Java (note: I can't figure out how to invert the resulting image yet)
+```java
+package org.trackerlounge;
+
+import java.io.File;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+import ij.IJ;
+import ij.ImagePlus;
+import ij.plugin.LutLoader;
+import ij.plugin.Thresholder;
+import ij.plugin.filter.FFTFilter;
+import ij.process.ImageProcessor;
+
+//Download ImageJ exe. It will come with ij.jar. Add that to your project library path.
+
+//https://github.com/imagej/ImageJA/blob/master/src/main/java/ij/plugin/filter/FFTFilter.java
+//https://imagej.nih.gov/ij/developer/source/
+//https://github.com/imagej/ImageJA
+
+//https://imagej.nih.gov/ij/developer/source/ij/plugin/filter/FFTFilter.java.html
+//https://imagej.nih.gov/ij/developer/api/ij/plugin/filter/FFTFilter.html
+
+//https://imagej.nih.gov/ij/developer/api/ij/ImagePlus.html
+//https://imagej.nih.gov/ij/developer/api/ij/IJ.html
+
+//https://imagej.nih.gov/ij/developer/source/ij/plugin/Thresholder.java.html
+//https://imagej.nih.gov/ij/developer/api/ij/plugin/Thresholder.html
+
+//https://imagej.nih.gov/ij/developer/source/ij/plugin/LutLoader.java.html
+//https://imagej.nih.gov/ij/developer/api/ij/plugin/LutLoader.html
+public class BPInOpenCV {
+	
+	public static void main(String[] args) throws Exception {
+		Path currentRelativePath = Paths.get("");
+		String s = currentRelativePath.toAbsolutePath().toString();
+		System.out.println("Current relative path is: " + s);
+		String path = s+"\\resources\\";
+		
+		String fileName = "LF_20in_Stride_Wet_Sand_ColoredZAxis_Small.jpg";
+		File file = new File(path, fileName);
+		
+		ImagePlus imp = new ImagePlus(file.getAbsolutePath());
+		String arg = "";//Don't know what this should be
+		
+		FFTFilter f = new FFTFilter();
+		f.setup(arg, imp);
+		
+		ImageProcessor ip = imp.getChannelProcessor();
+		f.run(ip);
+		imp.show();
+		//https://imagej.nih.gov/ij/developer/api/ij/IJ.html#save-ij.ImagePlus-java.lang.String-
+		String result = path+"\\band_pass_filter.jpg";
+		IJ.save(imp, result);
+	
+		// Not sure how to invert the image correctly - I think I should invert the LUT but this doesn't seem to take effect.
+		/* Output is a binary image, with foreground 255 and background 0, using an inverted or normal LUT depending on the 
+		 * "Black Background" option in Process>Binary>Options. The number of particles (as obtained by "Analyze Particles") 
+		 * in the output image does not depend on the "Output Type" selected. Note that "Segmented Particles" will usually 
+		 * result in particles touching the edge if "Exclude Edge Maxima" is selected. "Exclude Edge Maxima" applies to the 
+		 * maximum, not to the particle.
+		 */		
+		LutLoader lutLoader = new LutLoader();
+		lutLoader.run("invert");
+		
+		
+		//Not sure how to set the IJ.setImage() - this seems to be set by IJ.save()???
+		Thresholder t = new Thresholder();
+		String arg3="";
+		t.run(arg3);
+		imp.show();
+		String result3 = path+"\\binary_result.jpg";
+		IJ.save(IJ.getImage(), result3);
+	
+	}
+	
+}
+```
+
 To run the Make Binary Image click Process > Binary > Make Binary
 <img src='/imageJFFT/imagej_binary_makeBinrary.jpg' width=800>
 
