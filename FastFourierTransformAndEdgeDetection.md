@@ -110,6 +110,9 @@ public class BPInOpenCV {
 	
 }
 ```
+For a youtube video on this see
+/imageJFFT/runningImageJInYourJavaCodeTitleScreen.jpg
+[![Alt text](https://github.com/TrackerLounge/TrackingAndEdgeDetection/blob/master/imageJFFT/runningImageJInYourJavaCodeTitleScreen.jpg)](https://www.youtube.com/watch?xc3syeTIv-k)
 
 To run the Make Binary Image click Process > Binary > Make Binary
 <img src='/imageJFFT/imagej_binary_makeBinrary.jpg' width=800>
